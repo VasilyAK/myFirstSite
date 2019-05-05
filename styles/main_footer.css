@@ -1,0 +1,181 @@
+/* Оформление главного футера на странице */
+.main-footer {
+        -ms-flex-line-pack: stretch;
+	align-content: stretch;
+	background: rgba(255,255,255,0.97);
+	border: 3px solid #631010;
+	border-left: none;
+	border-right: none;
+	border-radius: 0;
+	    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+        display: -webkit-box;
+        display: -ms-flexbox;
+    display: flex;
+	    -webkit-box-flex: 0;
+	    -ms-flex: 0 1 auto;
+    flex: 0 1 auto;
+        -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding: 2%;
+}
+
+    .main-footer__info {
+            -webkit-box-flex: 1;
+            -ms-flex: 1 1 20%;
+        flex: 1 1 20%;      
+    }
+
+        .main-footer-info__label2 {
+            color: #631010;
+            font-size: 14px;
+            white-space: nowrap;
+        }
+
+        .main-footer-info__label1 {
+            color: #631010;
+            font-size: 28px;
+            white-space: nowrap;
+        }
+
+        .main-footer-info__tel {
+            text-indent: 30px;            
+        }
+            
+            .main-footer-info__tel a {
+                text-decoration: none;
+            }
+
+ 
+    .main-footer__nav {
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+        align-items: center;
+            display: -webkit-box;
+            display: -ms-flexbox;
+        display: flex;
+            -webkit-box-flex: 1;
+            -ms-flex: 1 1 auto;
+        flex: 1 1 auto;
+            -webkit-box-orient: horizontal;
+            -webkit-box-direction: normal;
+            -ms-flex-flow: row wrap;
+        flex-flow: row wrap;
+            -webkit-box-pack: center;
+            -ms-flex-pack: center;
+        justify-content: center;
+        padding: 20px;
+    }      
+
+        .main-footer-nav__link {
+                -webkit-box-flex: 0;
+                -ms-flex: 0 1 auto;
+            flex: 0 1 auto;
+            margin: 5px; 
+            width: 150px;
+        }
+
+    .main-footer__social {
+            -ms-flex-item-align: center;
+            -ms-grid-row-align: center;
+        align-self: center;
+            -webkit-box-flex: 1;
+            -ms-flex: 1 1 20%;
+        flex: 1 1 20%;
+    }
+
+        .main-footer-social__invite-text {
+            display: block;
+            font-size: 18px;
+            text-align: right;
+            white-space: nowrap;
+            margin-bottom: 5px;
+        }
+
+        .main-footer-social__social-buttons{
+            text-align: right;
+        }
+
+    .main-footer__hashtag-block{
+            -webkit-box-flex: 1;
+            -ms-flex: 1 1 100%;
+        flex: 1 1 100%;
+        text-align: center;
+        margin: 10px 0;
+    }
+    
+        .main-footer__hashtag {
+            border: 1px solid #631010;
+            border-top: none;
+            border-bottom: none;
+            display: inline-block;
+            font-size: 18px;
+            font-weight: normal;
+            padding: 0 10px;
+        } 
+
+    .main-footer__copyright {
+            -webkit-box-flex: 1;
+            -ms-flex: 1 1 100%;
+        flex: 1 1 100%;
+        text-align: center;
+    }
+
+        .main-footer__copyright-text {
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+/* АДАПТИВНОСТЬ */
+@media all and (max-width: 975px) {
+/* Оформление футера*/
+    .main-footer__info {
+            -webkit-box-flex: 1;
+            -ms-flex: 1 1 100%;
+        flex: 1 1 100%;
+        padding: 10px 0;      
+    }   
+        .main-footer-info__label2 {
+            text-align: center;
+        }
+
+        .main-footer-info__label1 {
+            text-align: center;
+        }
+
+        .main-footer-info__tel {
+            text-align: center;
+            text-indent: 0;            
+        }
+
+        .main-footer-social__invite-text {
+                font-size: 14px;
+            }
+    
+        .main-footer__hashtag {
+                font-size: 14px;
+            } 
+    
+    .main-footer__nav {
+        padding: 10px 0;
+    }     
+
+    
+    .main-footer__social {
+            -webkit-box-flex: 1;
+            -ms-flex: 1 1 100%;
+        flex: 1 1 100%;
+        padding: 10px 0;      
+    }
+
+        .main-footer-social__invite-text {
+            text-align: center;
+        }
+
+        .main-footer-social__social-buttons{
+            text-align: center;
+        }
+}

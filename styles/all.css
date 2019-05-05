@@ -1,0 +1,102 @@
+/* общие пункты*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+	height: 100vh;
+}
+
+body {
+	background-attachment: fixed;
+	background-image: url(../images/boiler.jpg);
+	background-repeat: no-repeat;
+    background-size: cover;
+	    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+	font-size: 22px;
+	width: 100%;
+}
+
+	.wrapper {
+            display: -webkit-box;	
+		    display: -ms-flexbox;	
+		display: flex;	
+            -webkit-box-orient: vertical;	
+            -webkit-box-direction: normal;	
+            -ms-flex-flow: column nowrap;	
+        flex-flow: column nowrap;
+            -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+        justify-content: space-between;
+		min-height: 100%;
+		margin: 0 auto;
+		max-width: 1500px;
+		width: 98%;
+	}
+
+	section {
+            -ms-flex-line-pack: stretch;
+        align-content: stretch;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+            -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+            -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+        justify-content: space-between;
+            -webkit-box-flex: 1;
+            -ms-flex: 1 1 auto;
+        flex: 1 1 auto;
+	}	
+
+	article {
+        background: rgba(255,255,255,0.97);
+		border: 3px solid #631010;
+		border-radius: 8px;
+		    -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+		margin: 4px;
+        padding: 2%;
+	}
+
+	.headline {
+		color: #631010;
+		font-size: 36px;
+		font-weight: bold;
+	}
+
+	.link__button {
+        background: none;
+		border: 2px solid #631010;
+		border-radius: 15px;
+		    -webkit-box-sizing: border-box;
+		box-sizing: border-box;
+		color: #631010;
+        display: inline-block;
+		font-weight: bold;
+		text-align: center;
+		text-decoration: none;
+	}
+
+	.link__button:hover {
+		background: #631010;
+		color: white;
+        cursor: pointer;
+	}
+
+
+/* АДАПТИВНОСТЬ */
+@media all and (max-width: 975px) {
+    /* общие пункты*/
+    body {
+        font-size: 14px;
+    }
+        
+        .headline {
+            font-size: 24px;
+            text-align: center;
+        }
+}   

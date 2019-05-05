@@ -1,0 +1,272 @@
+/* общие пункты */    
+.feedback-form_hide {
+    display: none;
+}
+
+
+/* оформление Формы отправки сообщения*/
+.feedback-form {
+        -webkit-box-align: stretch;
+        -ms-flex-align: stretch;
+    align-items: stretch;
+        display: -webkit-box;
+        display: -ms-flexbox;
+    display: flex;
+        -webkit-box-flex: 1;
+        -ms-flex: 1 1 100%;
+    flex: 1 1 100%;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-flow: column nowrap;
+    flex-flow: column nowrap;
+}
+    
+        .feedback-form__headline {
+                -webkit-box-flex: 0;
+                -ms-flex: 0 1 auto;
+            flex: 1 1 auto;
+            text-align: center;
+        }
+
+        .feedback-form-border{
+            border: 5px double #631010;
+            margin: 20px 0;
+        }
+            
+
+            .feedback-form__blank {
+                    -webkit-box-align: center;
+                    -ms-flex-align: center;
+                align-items: center;
+                    display: -webkit-box;
+                    display: -ms-flexbox;
+                display: flex;
+                    -webkit-box-flex: 1;
+                    -ms-flex: 1 1 auto;
+                flex: 1 1 auto;
+                    -webkit-box-orient: vertical;
+                    -webkit-box-direction: normal;
+                    -ms-flex-flow: column nowrap;
+                flex-flow: column nowrap;
+                padding: 20px;
+            }
+
+                .feedback-form-blank__block {
+                        -webkit-box-align: stretch;
+                        -ms-flex-align: stretch;
+                    align-items: stretch;
+                        display: -webkit-box;
+                        display: -ms-flexbox;
+                    display: flex;
+                        -webkit-box-orient: vertical;
+                        -webkit-box-direction: normal;
+                        -ms-flex-flow: column nowrap;
+                    flex-flow: column nowrap;
+                        -webkit-box-pack: start;
+                        -ms-flex-pack: start;
+                    justify-content: flex-start;
+                }
+
+                    .feedback-form-blank__label {
+                            -ms-flex-item-align: stretch;
+                            -ms-grid-row-align: stretch;
+                        align-self: stretch;
+                        color: rgb(30, 30, 30);
+                            -webkit-box-flex: 0;
+                            -ms-flex: 0 1 auto;
+                        flex: 0 1 auto;
+                        font-size: 18px !important;
+                        font-weight: bold;
+                        margin: 10px 0 5px;
+                        padding-left: 5px;
+                    }
+
+                    .feedback-form-blank__input {
+                        border: 1px solid #631010;
+                        border-radius: 5px;
+                        font-size: 14px;
+                        height: 26px;
+                        margin-bottom: 5px;
+                        outline: none;
+                        padding-left: 5px;
+                    }
+                    
+                    .feedback-form-blank__text {
+                        border: 1px solid #631010;
+                        border-radius: 5px;
+                        font-family: serif;
+                        font-size: 16px;
+                        margin-bottom: 5px;
+                        outline: none;
+                        padding: 5px;
+                    }
+
+                    .feedback-form-blank__span {
+                        color: red;
+                        font-size: 16px;
+                        margin-bottom: 10px;
+                    }
+
+                        /*для анимации при введении в поле верного значение*/
+                        .feedback-form-blank__input_green-border{
+                            border: 2px solid #003e04 !important;
+                        }
+
+                        .feedback-form-blank__all-valid-button {
+                            border: 2px solid #003e04 !important;
+                            color: #003e04 !important;
+                        }
+
+                        .feedback-form-blank__all-valid-button:hover {
+                            background: #003e04;
+                        }
+
+        .feedback-form__button {
+                -ms-flex-item-align: center;
+                -ms-grid-row-align: center;
+            align-self: center;
+            font-size: 18px;
+            margin-top: 20px;
+            outline: none;
+            padding: 4px 10px;
+            white-space: nowrap;
+        }
+
+        .feedback-form__addvice {
+            font-size: 18px;
+            margin: 0 10px 10px;
+            text-align: justify;
+        }
+
+
+/* Окно сообщения об отправке мэйла */
+.feedback-form__disabled {
+    background: rgba(0, 0, 0, 0.6);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+    justify-content: center;
+    height: 100%;
+    left: 0px;
+    overflow-y: auto;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+}
+
+    .feedback-form__mail-answer {
+            -ms-flex-item-align: center;
+        align-self: center;
+        background: rgba(255,255,255,0.97);
+        border: 2px solid rgb(99, 16, 16);
+        border-radius: 5px;
+            -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+            -webkit-box-flex: 0;
+            -ms-flex: 0 1 250px;
+        flex: 0 1 250px;
+            -webkit-box-orient: horizontal;
+            -webkit-box-direction: normal;
+            -ms-flex-flow: row wrap;
+        flex-flow: row wrap;
+            -webkit-box-pack: center;
+            -ms-flex-pack: center;
+        justify-content: center;
+        padding: 15px 15px 5px;
+    }
+
+        .feedback-form-mail-answer__header {
+            color: rgb(99, 16, 16);
+                -webkit-box-flex: 1;
+                -ms-flex: 1 1 100%;
+            flex: 1 1 100%;
+            font-size: 16px !important;
+            font-weight: bold;
+            padding: 8px 0;
+            text-align: center;
+            text-decoration: underline;
+        }
+
+        .feedback-form-mail-answer__error-text {
+                -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+            color: rgb(30, 30, 30);
+                -webkit-box-flex: 1;
+                -ms-flex: 1 1 20%;
+            flex: 1 1 20%;
+            font-size: 14px !important;
+            padding: 0 5px;
+        }
+
+        .feedback-form-mail-answer__error-name {
+                -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+            color: rgb(27, 44, 107);
+                -webkit-box-flex: 1;
+                -ms-flex: 1 1 50%;
+            flex: 1 1 50%;
+            font-size: 14px !important;
+            padding: 0 5px;
+        }
+
+        .feedback-form-mail-answer__thanks-message {
+            color: rgb(30, 30, 30);
+                -webkit-box-flex: 1;
+                -ms-flex: 1 1 100%;
+            flex: 1 1 100%;
+            font-size: 13px !important;
+            padding: 5px 5px;
+            text-align: center;
+        }
+
+        .feedback-form-mail-answer__button-close {
+            background: rgb(0, 150, 0);
+            border-color: rgb(225, 255, 225);
+            border-radius: 14px !important;
+            color: white;
+            cursor: pointer;
+                -webkit-box-flex: 0;
+                -ms-flex: 0 1 auto;
+            flex: 0 1 auto;
+            font-size: 14px;
+            margin: 5px;
+            padding: 5px 10px;
+            outline: none;
+        }
+
+/* АДАПТИВНОСТЬ */
+@media all and (orientation: landscape) {
+    
+}
+
+@media all and (orientation: portrait) {
+                    .feedback-form-blank__label {
+                        font-size: 16px !important;
+                    }
+
+                    .feedback-form-blank__input {
+                        font-size: 14px;
+                    }
+                    
+                    .feedback-form-blank__text {
+                        font-size: 14px;
+                    }
+
+                    .feedback-form-blank__span {
+                        font-size: 11px;
+                    }
+    
+        .feedback-form__button {
+            font-size: 16px;
+        }
+
+        .feedback-form__addvice {
+            font-size: 11px;
+        }
+
+}

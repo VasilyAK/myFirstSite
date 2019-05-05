@@ -1,0 +1,110 @@
+/* Стили главного хедера на странице */
+.main-header {
+        -ms-flex-line-pack: stretch;
+	align-content: stretch;
+	background: rgba(255,255,255,0.97);
+	border: 3px solid #631010;
+	border-left: none;
+	border-right: none;
+	border-radius: 0;
+	    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+        display: -webkit-box;
+        display: -ms-flexbox;
+    display: flex;
+	    -webkit-box-flex: 0;
+	    -ms-flex: 0 1 auto;
+    flex: 0 1 auto;
+        -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+    justify-content: center;
+}
+
+	.main-header__logo {
+            -webkit-box-flex: 0;
+            -ms-flex: 0 1 110px;
+        flex: 0 1 110px;
+        padding: 10px 20px;
+    }
+        
+        .main-header-logo__img {
+            width: 110px;
+        }
+		
+    .main-header__text {
+            -webkit-box-flex: 1;
+            -ms-flex: 1 1 300px;
+        flex: 1 1 300px;
+        padding: 10px 20px;
+    }	
+
+        .main-header-text__label2 {
+            color: #631010;
+            font-size: 24px;
+        }
+
+        .main-header-text__label {
+            color: #631010;
+            font-size: 48px;
+            margin: 10px 0;
+            padding: 0 20px;
+        }
+
+        .main-header-text__tagline {
+            display: block;
+            margin-bottom: 20px;
+            padding: 0 20px;
+            text-align: justify;
+        }
+
+        .main-header-text__link-block {
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+                -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+                -ms-flex-pack: distribute;
+            justify-content: space-around;
+            margin-bottom: 10px;
+        }
+
+            .text-link-block__link {
+                font-size: 30px;
+                    -webkit-box-flex: 0;
+                    -ms-flex: 0 1 40%;
+                flex: 0 1 40%;
+            }
+
+
+/* АДАПТИВНОСТЬ */
+@media all and (max-width: 975px) {
+        .main-header-text__label {
+            font-size: 28px;
+        }
+
+        .main-header-text__label2 {
+            font-size: 14px;
+        }
+    
+
+            .text-link-block__link {
+                font-size: 18px;
+            }
+}
+
+
+@media all and (max-width: 359px) {
+        .main-header-text__label {
+            font-size: 22px;
+        }
+
+        .main-header-text__label2 {
+            font-size: 12px;
+        }
+    
+            .text-link-block__link {
+                font-size: 16px;
+            }
+}

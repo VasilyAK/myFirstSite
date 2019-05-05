@@ -1,0 +1,541 @@
+/* Стили кнопок при работе на телефоне */
+            .phone-price__nav {
+                    display: -webkit-box;
+                    display: -ms-flexbox;
+                display: flex;
+                    -webkit-box-flex: 0;
+                    -ms-flex: 0 1 100%;
+                flex: 0 1 100%;
+                    -webkit-box-orient: horizontal;
+                    -webkit-box-direction: normal;
+                    -ms-flex-flow: row wrap;
+                flex-flow: row wrap;
+                    -webkit-box-pack: justify;
+                    -ms-flex-pack: justify;
+                justify-content: space-between;
+            }
+
+                .phone-price-nav__term-block {
+                        -webkit-box-align: space-between;
+                        -ms-flex-align: space-between;
+                    align-items: space-between;
+                        -webkit-box-sizing: border-box;
+                    box-sizing: border-box;
+                        display: -webkit-box;
+                        display: -ms-flexbox;
+                    display: flex;
+                        -webkit-box-flex: 0;
+                        -ms-flex: 0 1 25%;
+                    flex: 0 1 25%;
+                        -webkit-box-orient: horizontal;
+                        -webkit-box-direction: normal;
+                        -ms-flex-flow: row wrap;
+                    flex-flow: row wrap;
+                        -webkit-box-pack: center;
+                        -ms-flex-pack: center;
+                    justify-content: center;
+                    padding: 5px; 
+                }
+
+                    .phone-price-nav__icon {
+                            -webkit-box-flex: 0;
+                            -ms-flex: 0 1 50%;
+                        flex: 0 1 50%;
+                    }
+
+                        .phone-price-nav__icon-img {
+                            height: auto;
+                            width: 100%;
+                        }
+
+                    .phone-price-nav__term-name {
+                            -webkit-box-sizing: border-box;
+                        box-sizing: border-box;
+                            -webkit-box-flex: 1;
+                            -ms-flex: 1 1 100%;
+                        flex: 1 1 100%;
+                        font-size: 10px !important;
+                        padding: 2px 0 8px;
+                        text-align: center;
+                    }
+
+
+            /* Стили кнопок при работе на телефоне и раскрытом меню прайслиста и развернутом меню навигации*/
+            .phone-price__nav_open-max-nav {
+                        -ms-flex-line-pack: start;
+                    align-content: flex-start;
+                        display: -webkit-box;
+                        display: -ms-flexbox;
+                    display: flex;
+                        -webkit-box-flex: 0;
+                        -ms-flex: 0 1 250px;
+                    flex: 0 1 250px;
+                        -webkit-box-orient: horizontal;
+                        -webkit-box-direction: normal;
+                        -ms-flex-flow: row wrap;
+                    flex-flow: row wrap;
+                        -webkit-box-pack: start;
+                        -ms-flex-pack: start;
+                    justify-content: flex-start;
+            }
+
+                .phone-price-nav__term-block_open-max-nav {
+                        -webkit-box-align: center;
+                        -ms-flex-align: center;
+                    align-items: center;
+                        -webkit-box-sizing: border-box;
+                    box-sizing: border-box;
+                        display: -webkit-box;
+                        display: -ms-flexbox;
+                    display: flex;
+                        -webkit-box-flex: 0;
+                        -ms-flex: 0 1 50%;
+                    flex: 0 1 50%;
+                        -webkit-box-orient: horizontal;
+                        -webkit-box-direction: normal;
+                        -ms-flex-flow: row nowrap;
+                    flex-flow: row nowrap;
+                        -webkit-box-pack: start;
+                        -ms-flex-pack: start;
+                    justify-content: flex-start;
+                    padding: 10px; 
+                }
+
+                    .phone-price-nav__icon_open-max-nav {
+                            -webkit-box-flex: 1;
+                            -ms-flex: 1 1 30%;
+                        flex: 1 1 30%;
+                    }
+
+                    .phone-price-nav__term-name_open-max-nav {
+                            -webkit-box-flex: 0;
+                            -ms-flex: 0 1 70%;
+                        flex: 0 1 70%;
+                        font-size: 8px !important;
+                        padding: 0 5px;
+                        text-align: center;
+                    }
+
+
+            /* Стили кнопок при работе на телефоне и раскрытом меню прайслиста и свернутом меню навигации */
+            .phone-price__nav_open-min-nav {
+                        -ms-flex-line-pack: start;
+                    align-content: flex-start;
+                        display: -webkit-box;
+                        display: -ms-flexbox;
+                    display: flex;
+                        -webkit-box-flex: 0;
+                        -ms-flex: 0 1 100px;
+                    flex: 0 1 100px;
+                        -webkit-box-orient: horizontal;
+                        -webkit-box-direction: normal;
+                        -ms-flex-flow: row wrap;
+                    flex-flow: row wrap;
+                        -webkit-box-pack: center;
+                        -ms-flex-pack: center;
+                    justify-content: center;
+            }
+
+                .phone-price-nav__term-block_open-min-nav {
+                        -webkit-box-align: center;
+                        -ms-flex-align: center;
+                    align-items: center;
+                        -webkit-box-sizing: border-box;
+                    box-sizing: border-box;
+                        display: -webkit-box;
+                        display: -ms-flexbox;
+                    display: flex;
+                        -webkit-box-flex: 0;
+                        -ms-flex: 0 1 50%;
+                    flex: 0 1 50%;
+                        -webkit-box-orient: horizontal;
+                        -webkit-box-direction: normal;
+                        -ms-flex-flow: row nowrap;
+                    flex-flow: row nowrap;
+                        -webkit-box-pack: start;
+                        -ms-flex-pack: start;
+                    justify-content: flex-start;
+                    padding: 10px; 
+                }
+
+                    .phone-price-nav__icon_open-min-nav {
+                            -webkit-box-flex: 1;
+                            -ms-flex: 1 1 30%;
+                        flex: 1 1 30%;
+                    }
+
+
+            /* Стиль меню прайслиста при работе на телефоне */
+            .phone-price__list {
+                    -webkit-box-sizing: border-box;
+                box-sizing: border-box;
+                    display: -webkit-box;
+                    display: -ms-flexbox;
+                display: flex;
+                    -webkit-box-flex: 1;
+                    -ms-flex: 1 1 50%;
+                flex: 1 1 50%;
+                    -webkit-box-orient: vertical;
+                    -webkit-box-direction: normal;
+                    -ms-flex-flow: column nowrap;
+                flex-flow: column nowrap;
+                    -webkit-box-pack: start;
+                    -ms-flex-pack: start;
+                justify-content: flex-start;
+                padding: 0 10px;
+            }
+
+                .phone-price-list__block {
+                        display: -webkit-box;
+                        display: -ms-flexbox;
+                    display: flex;
+                        -webkit-box-flex: 0;
+                        -ms-flex: 0 1 auto;
+                    flex: 0 1 auto;
+                        -webkit-box-orient: vertical;
+                        -webkit-box-direction: normal;
+                        -ms-flex-flow: column nowrap;
+                    flex-flow: column nowrap;
+                        -webkit-box-pack: start;
+                        -ms-flex-pack: start;
+                    justify-content: flex-start;
+                    margin-bottom: 25px;
+                }
+
+                    .phone-price-list__block-name {
+                            -webkit-box-sizing: border-box;
+                        box-sizing: border-box;
+                        color: rgb(99,16,16);
+                        display: block;
+                            -webkit-box-flex: 0;
+                            -ms-flex: 0 1 auto;
+                        flex: 0 1 auto;
+                        font-size: 16px;
+                        font-weight: bold;
+                        margin-bottom: 15px;
+                        text-align: center;
+                        text-decoration: underline;
+                    }
+
+                    .phone-price-list__block-info {
+                            -webkit-box-align: center;
+                            -ms-flex-align: center;
+                        align-items: center;
+                        border-bottom: 1px solid rgba(99,16,16,1);
+                            display: -webkit-box;
+                            display: -ms-flexbox;
+                        display: flex;
+                            -webkit-box-flex: 0;
+                            -ms-flex: 0 1 auto;
+                        flex: 0 1 auto; 
+                            -webkit-box-pack: start; 
+                            -ms-flex-pack: start; 
+                        justify-content: flex-start;
+                        margin-bottom: 10px;
+                        padding: 5px 0;
+                    }
+
+                        .phone-price-list__block-info-number {
+                            color: rgb(30, 30, 30);
+                            display: block;
+                                -webkit-box-flex: 0;
+                                -ms-flex: 0 1 20px;
+                            flex: 0 1 20px;
+                            font-style: italic;
+                            text-align: right;
+                        }
+
+                        .phone-price-list__block-info-name {
+                            color: rgb(30, 30, 30);
+                            display: block;
+                                -webkit-box-flex: 1;
+                                -ms-flex: 1 1 50%;
+                            flex: 1 1 50%;
+                            font-size: 12px;
+                            font-style: italic;
+                            font-weight: bold;
+                            padding: 0 15px;
+                        }
+
+                        .phone-price-list__block-info-usable {
+                                -webkit-box-align: end;
+                                -ms-flex-align: end;
+                            align-items: flex-end;
+                                display: -webkit-box;
+                                display: -ms-flexbox;
+                            display: flex;
+                                -webkit-box-orient: vertical;
+                                -webkit-box-direction: normal;
+                                -ms-flex-flow: column nowrap;
+                            flex-flow: column nowrap;
+                                -webkit-box-flex: 0;
+                                -ms-flex: 0 1 100px;
+                            flex: 0 1 100px;
+                        }
+
+                            .phone-price-list__cost {
+                                    -webkit-box-sizing: border-box;
+                                box-sizing: border-box;
+                                color: rgb(27, 44, 107);
+                                display: block;
+                                font-size: 14px;
+                                font-style: italic;
+                                font-weight: bold;
+                                margin: 5px;
+                            }
+
+                            .phone-price-list__metrics {
+                                display: block;
+                                font-size: 10px;
+                                font-style: italic;
+                            }
+
+                            .phone-price-list__btn-add-calc {
+                                background: rgb(99,16,16);
+                                border: none;
+                                border-radius: 70% / 150% 0;
+                                    -webkit-box-sizing: border-box;
+                                box-sizing: border-box;
+                                color: white;
+                                cursor: pointer;
+                                font-size: 8px;
+                                font-weight: bold;
+                                outline: none;
+                                padding: 7px 20px;
+                                margin: 5px;
+                                white-space: nowrap;
+                            }
+
+                            .price-list__btn-add-calc:active {
+                                background: rgb(17, 116, 4);
+                            }
+
+
+/* Всплывающее окно выбора колличества заказываемых услуг */
+    .phone-price-list__disabled {
+        background: rgba(0, 0, 0, 0.6);
+            display: -webkit-box;
+            display: -ms-flexbox;
+        display: flex;
+            -webkit-box-pack: center;
+            -ms-flex-pack: center;
+        justify-content: center;
+        height: 100%;
+        left: 0px;
+        position: fixed;
+        top: 0px;
+        width: 100%;
+    }
+
+        .phone-price-list__quantity {
+                -ms-flex-item-align: center;
+            align-self: center;
+            background: rgba(255,255,255,0.97);
+            border: 2px solid rgb(99, 16, 16);
+            border-radius: 5px;
+                -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+                display: -webkit-box;
+                display: -ms-flexbox;
+            display: flex;
+                -webkit-box-flex: 0;
+                -ms-flex: 0 1 250px;
+            flex: 0 1 250px;
+                -webkit-box-orient: vertical;
+                -webkit-box-direction: normal;
+                -ms-flex-flow: column nowrap;
+            flex-flow: column nowrap;
+            padding: 15px 15px 5px;
+            overflow-y: auto;
+        }
+
+            .phone-price-list-quantity__header {
+                    -ms-flex-item-align: stretch;
+                    -ms-grid-row-align: stretch;
+                align-self: stretch;
+                color: rgb(99, 16, 16);
+                    -webkit-box-flex: 0;
+                    -ms-flex: 0 1 auto;
+                flex: 0 1 auto;
+                font-size: 16px;
+                font-weight: bold;
+                padding: 8px 0;
+                text-align: center;
+                text-decoration: underline;
+            }
+
+            .phone-price-list-quantity__text {
+                    -ms-flex-item-align: stretch;
+                    -ms-grid-row-align: stretch;
+                align-self: stretch;
+                color: rgb(30, 30, 30);
+                    -webkit-box-flex: 0;
+                    -ms-flex: 0 1 auto;
+                flex: 0 1 auto;
+                font-size: 14;
+                font-style: italic;
+                font-weight: bold;
+                padding: 8px 0;
+                text-align: center;
+            }
+
+            .phone-price-list-quantity__set {
+                    -ms-flex-item-align: stretch;
+                align-self: stretch;
+                    display: -webkit-box;
+                    display: -ms-flexbox;
+                display: flex;
+                    -webkit-box-flex: 0;
+                    -ms-flex: 0 1 auto;
+                flex: 0 1 auto;
+                    -webkit-box-pack: center;
+                    -ms-flex-pack: center;
+                justify-content: center;
+                padding: 8px 0;
+            }
+
+                .phone-price-list-quantity-set__text-before {
+                        -ms-flex-item-align: end;
+                    align-self: flex-end;
+                    font-size: 12px;
+                    margin: 0 5px;
+                }
+
+                .phone-price-list-quantity-set__button {
+                    background: green;
+                    border-radius: 10px;
+                    color: white;
+                    cursor: pointer;
+                    height: 20px;
+                    outline: none;
+                    text-align: center;
+                    width: 20px;
+                }
+
+                .phone-price-list-quantity-set__button_plus {
+                    background: rgb(0, 150, 0);
+                    border-color: rgb(225, 255, 225);
+                }
+
+                .phone-price-list-quantity-set__text {
+                    font-size: 12px;
+                    margin: 0 5px;
+                    text-align: center;
+                    width: 50px;
+                }
+
+                .phone-price-list-quantity-set__button_minus {
+                    background: rgb(150, 0, 0);
+                    border-color: rgb(255, 225, 225);
+                }
+
+                .phone-price-list-quantity-set__text-after {
+                        -ms-flex-item-align: end;
+                    align-self: flex-end;
+                    font-size: 12px;
+                    margin: 0 5px;
+                }
+
+            .phone-price-list-quantity__total-block {
+                    -ms-flex-item-align: stretch;
+                align-self: stretch;
+                    display: -webkit-box;
+                    display: -ms-flexbox;
+                display: flex;
+                    -webkit-box-flex: 0;
+                    -ms-flex: 0 1 auto;
+                flex: 0 1 auto;
+                    -webkit-box-pack: center;
+                    -ms-flex-pack: center;
+                justify-content: center;
+                padding: 8px 0;
+            }
+
+                .phone-price-list-quantity-total-block__text {
+                        -webkit-box-flex: 0;
+                        -ms-flex: 0 1 auto;
+                    flex: 0 1 auto;
+                    font-size: 16px;
+                    padding: 0 5px;
+                }
+
+                .phone-price-list-quantity-total-block__val {
+                    color: rgb(27, 44, 107);
+                    display: block;
+                        -webkit-box-flex: 0;
+                        -ms-flex: 0 1 auto;
+                    flex: 0 1 auto;
+                    font-size: 16px;
+                    font-style: italic;
+                    font-weight: bold;
+                }
+
+            .phone-price-list-quantity__button-block {
+                    -ms-flex-item-align: stretch;
+                align-self: stretch;
+                    display: -webkit-box;
+                    display: -ms-flexbox;
+                display: flex;
+                    -webkit-box-flex: 0;
+                    -ms-flex: 0 1 auto;
+                flex: 0 1 auto;
+                    -webkit-box-pack: center;
+                    -ms-flex-pack: center;
+                justify-content: center;
+                padding: 8px 0;
+            }
+
+                .phone-price-list-quantity-button-block__button {
+                    border-radius: 14px !important;
+                    color: white;
+                    cursor: pointer;
+                        -webkit-box-flex: 0;
+                        -ms-flex: 0 1 35%;
+                    flex: 0 1 35%;
+                    font-size: 12px;
+                    margin: 0 5px;
+                    padding: 5px 10px;
+                    outline: none;
+                }
+
+                .phone-price-list-quantity-button-block__button-ok {
+                    background: rgb(0, 150, 0);
+                    border-color: rgb(225, 255, 225);
+                }
+
+                .phone-price-list-quantity-button-block__button-cancel {
+                    background: rgb(150, 0, 0);
+                    border-color: rgb(255, 225, 225);
+                }
+
+
+/* АДАПТИВНОСТЬ */
+
+@media all and (orientation: landscape) {
+            /* Стили кнопок при работе на телефоне */
+            .phone-price__nav {
+                    -webkit-box-pack: center;
+                    -ms-flex-pack: center;
+                justify-content: center;
+            }    
+
+                .phone-price-nav__term-block {
+                        -webkit-box-flex: 0;
+                        -ms-flex: 0 1 16%;
+                    flex: 0 1 16%;
+                }
+}
+
+@media all and (orientation: portrait) and (max-width: 359px) {
+            /* Стили кнопок при работе на телефоне */
+                    .phone-price-nav__term-name {
+                        font-size: 9px !important;
+                    }
+}
+
+@media all and (orientation: landscape) and (max-height: 359px) {
+            /* Стили кнопок при работе на телефоне */    
+                    .phone-price-nav__term-name {
+                        font-size: 9px !important;
+                    }
+}
